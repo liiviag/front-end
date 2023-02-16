@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 16px;
+    background-color: black;
+    margin: 16px;
+    padding: 16px;
+    color: #0000;
+}
+
+.aluno{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FFFF;
+}
+
+.aluno_nota {
+    font-size: 100px;
+    color: cornflowerblue;
+}
+
+.aluno_nome {
+    font-size: 50px;
+    color: cornflowerblue;
+}
+
+
+.sombra_vermelha{
+    box-shadow: 0px 0px  8px red;
+}
+.sombra_azul{
+    box-shadow: 0px 0px  8px #008081;
+}
